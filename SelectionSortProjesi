@@ -1,0 +1,14 @@
+[22,27,16,2,18,6] 
+en küçük elemanı bulmak için (n) tane kontrol yapılır. En küçük eleman baştaki elemanla yer değiştirir.
+
+[2,27,16,22,18,6] 
+bir sonraki küçük elemanı bulmak için (n-1) işlem yapılır. 2.sıradaki eleman ile yerleri değiştirilir.
+
+[2,6,16,22,18,27] 
+bu şekilde işlemler yapılmaya devam edilir.
+
+[2,6,16,18,22,27]
+toplamda yapılan işlem sayısı (n)+(n-1)+(n-2)+.....+1 = n*(n+1)/2 = (n^2+n)/2
+Big-O gösterimi O(n^2)'dir.
+
+Dizi sıralandıktan sonra 18 sayısı "Avareage Case" 'dir.
